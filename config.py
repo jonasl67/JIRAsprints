@@ -2,18 +2,10 @@
     Settings for the JIRA DB used
 """
 
-# ssh -L localhost:3306:192.168.0.40:3306 cu@jira.mashmobile.com
-
 PROGVERSION = "0.1"
 PROGNAME = "jirasprints"
 
 # DB settings
-
-# Rogers PC
-#sDBServerAddress = "192.168.0.39" 
-#sDBUser = "root"
-#sDBUserPassword = "root"
-#sDBName = "jira110217"
 
 # local host DB
 sDBServerAddress = "127.0.0.1"
@@ -21,10 +13,10 @@ sDBServerAddress = "127.0.0.1"
 #sDBUserPassword = "jira"
 #sDBName = "jiradb"
 
-# Mashmobile production DB
+# Production DB
 #sDBServerAddress = "192.168.0.40"
 sDBUser = "jirareader"
-sDBUserPassword = "d3sdkoffe3"
+sDBUserPassword = "donaldduck"
 sDBName = "jiradb"
 
 # JIRA issue status values
